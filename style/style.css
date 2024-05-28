@@ -1,0 +1,683 @@
+/*General font for the website*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Font for title in english */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Font for heading in hindi website*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Yatra+One&display=swap');
+
+/*Font for Other thing in hindi website*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Yatra+One&display=swap');
+
+.roboto-thin {
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.roboto-light {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.roboto-regular {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.roboto-medium {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.roboto-bold {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.roboto-black {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.roboto-thin-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.roboto-light-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.roboto-regular-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.roboto-medium-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.roboto-bold-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.roboto-black-italic {
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-style: italic;
+}
+
+.pt-serif-regular {
+font-family: "PT Serif", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.pt-serif-bold {
+font-family: "PT Serif", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.pt-serif-regular-italic {
+font-family: "PT Serif", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.pt-serif-bold-italic {
+font-family: "PT Serif", serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.yatra-one-regular {
+font-family: "Yatra One", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+
+.mukta-extralight {
+font-family: "Mukta", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.mukta-light {
+font-family: "Mukta", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.mukta-regular {
+font-family: "Mukta", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.mukta-medium {
+font-family: "Mukta", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.mukta-semibold {
+font-family: "Mukta", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.mukta-bold {
+font-family: "Mukta", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.mukta-extrabold {
+font-family: "Mukta", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+.r_row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.r_column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: lightgreen;
+}
+
+.r_blog_header {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+.r_blog_header > h1 {
+    padding: 20px;
+}
+
+.container-lg{
+    border: 5px solid lightgreen;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+.r_header_font{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.r_blog_body {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.r_blog_body > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.r_card_link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card_continer {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.loginButton {
+    text-decoration: none;
+    color: black;
+    background-color: lightgreen;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.loginButton:hover{
+    color: lightgreen;
+    background-color: black;
+}
+
+.container-fluid{
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.r_header{
+    margin: 0;
+    margin-top: 5px;
+}
+
+.r_footer{
+    background-color: lightgreen;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.footer_container{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_container > p {
+    margin: 0px;
+}
+
+
+.seed_search_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.post-container{
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-upload{
+    margin: 5px;
+    padding: 5px;
+   /* border: solid black 2px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ .main-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.post-textarea{
+    border: none;
+    resize: none;
+    border: solid 2px lightgreen;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.post-textarea:focus{
+    border: none;
+    resize: none;
+    outline: none;
+    border: solid 2px brown;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.image-button{
+    border: none;
+    background-color: lightgreen;
+}
+
+.post-button{
+    border: none;
+    outline: none;
+    background-color: lightgreen;
+    color: brown;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.post-button:focus{
+    background-color: brown;
+    color: lightgreen;
+}
+.post-button:hover{
+    background-color: brown;
+    color: lightgreen;
+}
+
+.post-display{
+    margin-top: 20PX;
+    margin-bottom: 10px;
+    width: 512PX;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: solid black 2px;
+}
+
+.post-header{
+    width: 100%;
+    margin: 5px;
+}
+
+.post-header > img {
+    background-color: black;
+}
+
+.post-text {
+    margin-top: 10px;
+}
+
+.post-interaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-interaction > button {
+    background-color: white;
+    border: none;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.post-interaction > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.rlike-icon{
+    width : 32px;
+    height: 32px;
+    background-image: url('./../res/img/like_white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-interaction > button:hover > .rlike-icon {
+    background-image: url('./../res/img/like_white_fill.png');
+}
+
+.rcomment-icon{
+    width : 32px;
+    height: 32px;
+    background-image: url('./../res/img/comment_white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-interaction > button:hover > .rcomment-icon {
+    background-image: url('./../res/img/comment_white_fill.png');
+}
+
+.rshare-icon{
+    width : 32px;
+    height: 32px;
+    background-image: url('./../res/img/share_white.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-interaction > button:hover > .rshare-icon {
+    background-image: url('./../res/img/share_white_fill.png');
+}
+
+.rshadow{
+    box-shadow: 0px 0px 2px 2px gray;
+}
+
+.cmnt-container{
+    display: none;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.post-comment-container{
+    display: flex;
+    flex-direction: column;
+    border: solid gray 1px;
+    border-radius: 10px;
+    padding:10px;
+    gap: 5px;
+}
+
+.post-comment-box{
+    width: 100%;
+    resize: none;
+    border: none;
+    border: solid 2px lightgreen;
+    border-radius: 10px;
+    padding-left:10px;
+    padding-top:10px;
+}
+
+.cmnt-btn{
+    max-width: 120px;
+    height: 40px;
+    padding: 0px;
+    align-self: left;
+}
+
+.display-cmnt-container{
+    border: solid gray 1px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.share-option-container{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.share-option-container > input {
+    padding: 5px 10px;
+    border: solid black  1px;
+    border-radius: 10px;
+    font-size: 1.25rem;
+}
+
+.share-option{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.share-option button {
+    margin: 0;
+    padding: 5px 10px;
+    background-color: lightgreen;
+    color: brown;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.share-option > button:hover {
+    color: lightgreen;
+    background-color: brown;
+}
+
+.r_dropdown_menu{
+    overflow: hidden;
+    float: left;
+    width: 100px;
+}
+
+.nav-user-icon-container{
+    display: flex;
+    justify-content: end;
+}
+
+.nav-user-icon{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50px;
+    border: solid 3px lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-user-icon:hover{
+    border: solid 3px brown;
+}
+
+.nav-user-option{
+    display: none;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px;
+    z-index: 2;
+}
+
+.nav-user-option > a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-bottom: solid 2px black;
+}
+
+.nav-user-option > a:hover {
+    background-color: black;
+    color: white;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-box > h2 {
+    font-weight: bold;
+}
+
+.info-box > a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: brown;
+    background-color: lightgreen;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.info-box > a:hover {
+    background-color: brown;
+    color: lightgreen;
+}
+
+.r_notification{
+    display: none;
+    position: fixed;
+    padding: 10px 20px;
+    background-color: white;
+    top: 30px;
+    left: 50%;
+    border: solid black 1px;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    font-size: 1.25rem;
+}
+
+.r_notification p {
+    margin: 0;
+    padding: 0;
+}
+
+.r_list{
+    margin-top: 10px;
+ }
+ 
+ .r_list > * {
+   border: solid black 1px;
+   padding: 5px;
+   border-radius: 2px;
+}
+
+.r_overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+}
+.r_popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	z-index: 1001;
+}
+
+.close-btn{
+    position: absolute;
+	top: 5px;
+	right: 10px;
+	cursor: pointer;
+	color: lightgreen;
+    border: lightgreen solid 2px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.close-btn:hover {
+    color: brown;
+    border-color: brown;
+}
+
+.r_input_box {
+    height: 30px;
+    padding: 10px;
+}
